@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url(spacebackground.jpg) no-repeat ;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+
+}
+
+.container img{
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+
+}
+
+.container h2{
+    z-index: 1;
+    position: relative;
+    color: white;
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 20px;
+    line-height: 60px;
+}
+
+.container h2 span{
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+@media (max-width: 800px) {
+    .container h2{
+        font-size: 60px;
+        letter-spacing: 19px;
+    }
+    
+    .container span{
+        font-size: 26px;
+    }
+}
+
+.object.blueplanet{
+    position: absolute;
+    top: 0;
+    left: 100;
+}
+
+.object.desertplanet{
+    position: absolute;
+    top: 0;
+    left: 600;
+}
+
+.object.png{
+    position: absolute;
+    top: 460px;
+    left: 750px;
+}
+
+.object.rocket{
+    position: absolute;
+    top: 200px;
+    left: -110px;
+    rotate: -145deg;
+}
+
+.object.rocket{
+    position: absolute;
+    top: 200px;
+    left: -110px;
+    rotate: -145deg;
+}
+
+.object.waterplanet{
+    position: absolute;
+    top: 500px;
+    left: -110px;
+}
+
+.object.stormplanet{
+    position: absolute;
+    top: 575px;
+    left: 400px;
+    height: 150px;
+}
+
+.object.goldplanet{
+    position: absolute;
+    top: 307px;
+    left: 775px;
+    height: 150px;
+}
